@@ -1,0 +1,10 @@
+SELECT
+	LEFT(a.EmailAddress, 5 ) AS NewColumn
+FROM
+	Person.EmailAddress AS a
+--------------------------------------------
+
+SELECT DISTINCT
+	RIGHT(a.EmailAddress, 20) AS Nueva
+FROM
+	Person.EmailAddress AS a
