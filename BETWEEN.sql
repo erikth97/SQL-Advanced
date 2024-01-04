@@ -1,0 +1,8 @@
+SELECT
+	*
+FROM
+	Production.Product AS a
+WHERE
+	a.ReorderPoint BETWEEN 300 AND 500
+	--AND CAST(a.SellStartDate AS date) BETWEEN CAST(GETDATE() AS date) AND DATEADD(YEAR, -1, CAST(GETDATE()))
+	AND CAST(a.SellStartDate AS date) BETWEEN '2008-04-30' AND '2012-12-31'
