@@ -1,0 +1,3 @@
+CREATE TABLE Prueba1 (ID INT)
+
+ALTER SCHEMA Production TRANSFER Prueba1
